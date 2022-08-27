@@ -14,4 +14,4 @@ Datasets used for training and evaluating the models can be found <a href="https
 
 We have not shared the code or pretrained models for FAST/DistilFAST as the code for FAST was not publicly released. Please contact the authors for the code.
 
-The In-The-Wild datasets can be accessed using this <a href="https://docs.google.com/forms/d/1MPEuRO_RUPZR1jrSXC-VCXJviw8_62UOafGjWjxTNro/edit"> Google Form></a>
+The In-The-Wild datasets can be accessed using this <a href="https://docs.google.com/forms/d/1MPEuRO_RUPZR1jrSXC-VCXJviw8_62UOafGjWjxTNro/edit"> Google Form</a>
