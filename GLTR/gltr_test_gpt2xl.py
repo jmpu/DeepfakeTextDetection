@@ -208,35 +208,35 @@ def main():
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument(
-		'--test_dataset',
+		'--test_dataset', # Testing dataset
 		default=None,
 		type=str,
 		required=True,
 		 )
 
 	parser.add_argument(
-		'--gpt2_xl_gltr_ckpt',
+		'--gpt2_xl_gltr_ckpt', # The GLTR-GPT2 model checkpoint for evaluation
+		default=None,
+		type=str,
+		required=True,
+		 )
+
+	parser.add_argument( 
+		'--gpt2_model', # backend model used
 		default=None,
 		type=str,
 		required=True,
 		 )
 
 	parser.add_argument(
-		'--gpt2_model',
-		default=None,
-		type=str,
-		required=True,
-		 )
-
-	parser.add_argument(
-		'--return_stat_file',
+		'--return_stat_file', # The file that saves statistical features, you may load this file later to avoid extracting feature again
 		default=None,
 		type=str,
 		required=True,
 	)
 	
 	parser.add_argument(
-		'--output_metrics',
+		'--output_metrics', # The file that saves evaluation results
 		default=None,
 		type=str,
 		required=True,
@@ -244,8 +244,6 @@ def main():
 	
 	args = parser.parse_args()
 
-
-	# Training gpt2-xl
 
 	histogram_of_likelihoods_test =  []
 	labels_test = []
@@ -302,7 +300,7 @@ def main():
 
 	print(gpt2_xl_metrics)
 
-	# Saving the model
+	
 
 	with jsonlines.open(args.output_metrics, 'w') as output_metrics:
 		output_metrics.write(gpt2_xl_metrics)

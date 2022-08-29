@@ -11,5 +11,3 @@ Processing article number: 7
 Processing article number: 8
 Processing article number: 9
 Processing article number: 10
-
-# this tested the scripts in this new folder established work! no other imported file missing.

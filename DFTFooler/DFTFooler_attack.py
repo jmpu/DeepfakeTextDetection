@@ -313,21 +313,21 @@ if __name__ == '__main__':
 
     parser.add_argument(
         '--counter_fitting_cos_sim_path',
-        default='/rdata/jiameng/TextFooler/cos_sim_counter_fitting_validate.npy',
+        default='./cos_sim_counter_fitting_validate.npy',
         type=str,
         required=False,
     )
 
     parser.add_argument(
         '--counter_fitting_embeddings_path',
-        default='/rdata/jiameng/TextFooler/counter-fitted-vectors.txt',
+        default='./counter-fitted-vectors.txt',
         type=str,
         required=False,
     )
 
     parser.add_argument(
         '--USE_cache_path',
-        default='/rdata/zainsarwar865/models/tf',
+        default='./models/tf',
         type=str,
         required=False,
     )
@@ -348,7 +348,7 @@ if __name__ == '__main__':
     )
 
     parser.add_argument(
-        '--low_prob_thre', # low probability threshold for selecting a synonym. use 0.01 by default
+        '--low_prob_thre', # a low probability threshold for selecting a synonym. use 0.01 by default
         default=0.01,
         type=float,
         required=False,

@@ -349,28 +349,28 @@ def main():
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument(
-		'--train_dataset',
+		'--train_dataset', # training dataset
 		default=None,
 		type=str,
 		required=True,
 		 )
 
 	parser.add_argument(
-		'--gpt2_xl_gltr_ckpt',
+		'--gpt2_xl_gltr_ckpt', # The path to save fitted model checkpoint
 		default=None,
 		type=str,
 		required=True,
 		 )
 	
 	parser.add_argument(
-		'--gpt2_model',
+		'--gpt2_model', # backend model
 		default=None,
 		type=str,
 		required=True,
 		 )
 
 	parser.add_argument(
-		'--output_metrics',
+		'--output_metrics', # the path to save the training performance metrics
 		default=None,
 		type=str,
 		required=True,

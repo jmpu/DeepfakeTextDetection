@@ -277,48 +277,48 @@ if __name__ == '__main__':
 
     parser.add_argument(
         '--counter_fitting_cos_sim_path',
-        default='/rdata/jiameng/TextFooler/cos_sim_counter_fitting_validate.npy',
+        default='./cos_sim_counter_fitting_validate.npy',
         type=str,
         required=False,
     )
 
     parser.add_argument(
         '--counter_fitting_embeddings_path',
-        default='/rdata/jiameng/TextFooler/counter-fitted-vectors.txt',
+        default='./counter-fitted-vectors.txt',
         type=str,
         required=False,
     )
 
     parser.add_argument(
         '--USE_cache_path',
-        default='/rdata/zainsarwar865/models/tf',
+        default='./models/tf',
         type=str,
         required=False,
     )
 
     parser.add_argument(
-        '--attack_dataset_path',
+        '--attack_dataset_path', # the dataset under attack
         default='',
         type=str,
         required=True,
     )
 
     parser.add_argument(
-        '--dataset_tag',
+        '--dataset_tag',   # indicates the format of dataset to be processed. used in read_data.
         default='roberta',
         type=str,
         required=False,
     )
 
     parser.add_argument(
-        '--max_iter',
+        '--max_iter', # number of word perturbations per document
         default=10,
         type=int,
         required=False,
     )
 
     parser.add_argument(
-        '--sim_thre',
+        '--sim_thre',  # sentence semantic similarity threshold.
         default=0.7,
         type=float,
         required=False,
@@ -332,20 +332,20 @@ if __name__ == '__main__':
     )
 
     parser.add_argument(
-        '--attack_stat_csv1',
+        '--attack_stat_csv1', # a csv file to save statistics/records during the perturbation attack
         default='',
         type=str,
         required=False,
     )
     parser.add_argument(
-        '--attack_stat_csv2',
+        '--attack_stat_csv2', # second csv file to save statistics/records during the perturbation attack
         default='',
         type=str,
         required=False,
     )
 
     parser.add_argument(
-        '--output_new_file',
+        '--output_new_file', # specify a jsonl file to save perturbed articles
         default='',
         type=str,
         required=False,

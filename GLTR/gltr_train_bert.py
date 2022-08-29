@@ -370,7 +370,7 @@ def main():
 		 )
 
 	parser.add_argument(
-		'--output_metrics', # Training performance
+		'--output_metrics', # the path to save the training performance metrics
 		default=None,
 		type=str,
 		required=True,

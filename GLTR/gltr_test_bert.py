@@ -385,9 +385,6 @@ def main():
 
 
 
-
-	# Moving to BERT
-
 	histogram_of_likelihoods_test =  []
 	labels_test = []
 
@@ -442,7 +439,7 @@ def main():
 	print(bert_large_cased_metrics)
 
 
-	# Saving the model
+
 
 	with jsonlines.open(args.output_metrics, 'w') as output_metrics:
 		output_metrics.write(bert_large_cased_metrics)
