@@ -21,8 +21,6 @@ import nltk
 
 import tensorflow_hub as hub
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader, SequentialSampler, TensorDataset
-from BERT.modeling import BertForSequenceClassification, BertConfig
 
 nltk.download('averaged_perceptron_tagger')
 nltk.download('universal_tagset')

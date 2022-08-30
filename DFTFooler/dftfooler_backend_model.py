@@ -15,8 +15,6 @@ import nltk.tokenize as nt
 
 # import tensorflow as tf
 import torch.nn as nn
-# from BERT.tokenization import BertTokenizer
-from BERT.modeling import BertForSequenceClassification, BertConfig
 from transformers import RobertaTokenizer, RobertaForMaskedLM
 
 class AbstractLanguageChecker():
