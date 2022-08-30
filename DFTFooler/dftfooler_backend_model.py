@@ -15,7 +15,6 @@ import nltk.tokenize as nt
 
 # import tensorflow as tf
 import torch.nn as nn
-from transformers import RobertaTokenizer, RobertaForMaskedLM
 
 class AbstractLanguageChecker():
     """
