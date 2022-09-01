@@ -10,7 +10,7 @@ In this repository, we release code, datasets and model for the paper --- [Deepf
 
 We collect 4 In-the-wild datasets from the web containing both synthetic and real articles from matching semantic categories. This includes synthetic text posted by Internet users, and text from synthetic text-generation-as-a-service platforms, geared towards the SEO community. While we could not verify the text generators used by the services we study, they claim to use customized versions of Transformer-based LMs. This again highlights the need to understand real-world performance of defenses, because text generators used in the wild can be different from those used by the research community.
 
-## Dataset Statistics
+#### Dataset Statistics
 
 | Datasets     |#Document per class      | Document topics |
 | ------------- | ------------- | -------- |
