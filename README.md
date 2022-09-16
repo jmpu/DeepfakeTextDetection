@@ -46,9 +46,11 @@ The code of GRUEN score adapted by us for longer documents evaluation can be fou
 
 ## Cite the paper
 
+```
 @inproceedings{pu2023deepfake,
   title={Deepfake Text Detection: Limitations and Opportunities},
   author={Pu, Jiameng and Sarwar, Zain and Abdullah, Sifat Muhammad and Rehman, Abdullah and Kim, Yoonjin and Bhattacharya, Parantapa and Javed, Mobin and Viswanath, Bimal},
   booktitle={Proc. of IEEE S\&P},
   year={2023},
 }
+```
