@@ -43,3 +43,12 @@ File names of datasets and (pretrained) models are self-explanatory.
 We measure linguistic quality using the state-of-the-art [GRUEN](https://arxiv.org/abs/2010.02498) metric. The GRUEN metric was originally designed to evaluate the quality of short paragraphs of synthetic text. Due to the cumulative penalty function imposed by some of the subscore metrics of GRUEN, longer articles often get assigned a score of zero by it. Therefore, we contacted the authors of the GRUEN paper and implemented a methodology suggested by them to circumvent this issue. This involved splitting an article into multiple articles with equal number of sentences such that each article had an approximate average length of 120 words. We chose this configuration as the GRUEN scores for several datasets had a zero score below 1.5\%.
 
 The code of GRUEN score adapted by us for longer documents evaluation can be found in ```./GRUEN``` subfolder.
+
+## Cite the paper
+
+@inproceedings{pu2023deepfake,
+  title={Deepfake Text Detection: Limitations and Opportunities},
+  author={Pu, Jiameng and Sarwar, Zain and Abdullah, Sifat Muhammad and Rehman, Abdullah and Kim, Yoonjin and Bhattacharya, Parantapa and Javed, Mobin and Viswanath, Bimal},
+  booktitle={Proc. of IEEE S\&P},
+  year={2023},
+}
