@@ -25,7 +25,7 @@ The In-The-Wild datasets can be requested using this [Google Form](https://docs.
 
 1. We evaluated 6 existing deepfake text detection schemes (BERT-Defense, GLTR-BERT, GLTR-GPT2, RoBERTa-Defense, GROVER, FAST) in the paper. The code and datasets of GROVER can be found in the original code [repository](https://github.com/rowanz/grover). The code for **BERT-Defense**, **RoBERTa-Defense**, **GLTR-BERT** and **GLTR-GPT2** can be found in each corresponding folder, i.e., ```./BERT-Defense```, ```./RoBERTa-Defense``` and ```./GLTR``` respectively. 
 
-2. Datasets and (pretrained) models used by these defenses in the paper can be found [here](https://drive.google.com/drive/folders/1BD6i7MWYYPPFr5SK2EhdKBWx0W8SJO4L). To be more specific, these datasets and models were used to obtain evaluation results in Table I, III, V and VI of the paper.
+2. Datasets and (pretrained) models used by these defenses in the paper can be found [here](https://drive.google.com/drive/folders/10qNru_jINryetVN_d4p-nu1HhOTfj9Yh?usp=sharing). To be more specific, these datasets and models were used to obtain evaluation results in Table I, III, V and VI of the paper.
 File names of datasets and (pretrained) models are self-explanatory. 
 
 3. We have not shared the code or pretrained models for [FAST](https://arxiv.org/abs/2010.07475)/DistilFAST as the code for FAST was not publicly released. Please contact the authors for the code.
