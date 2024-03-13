@@ -19,7 +19,7 @@ We collect 4 In-the-wild datasets from the web containing both synthetic and rea
 |Kafkai|1000|Cyber Security, SEO, Marketing|
 |RedditBot|887|Reddit Comments|
 
-The In-The-Wild datasets can be requested using this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdgbiK97hnBWL1_98xIYjqWQpjeg9tzX49r0t7xGCrPkKLP-w/viewform?usp=sf_link).
+The In-The-Wild datasets can be requested using this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfO_M4ALMfkDwZtd8DvZYTyk_E9ew-ZIsRHKK-7yKfrCuxmQw/viewform).
 
 ## Evaluating Existing Deepfake Text Defenses
 
